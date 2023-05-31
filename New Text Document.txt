@@ -1,0 +1,17 @@
+load data infile "D:\2023.csv" into table auto
+fields terminated by ','
+ignore 1 lines
+
+select * from auto where mon is ('sbcabdelhi4',
+'sbcabdelhi6',
+'sbcabdelhi7',
+'sbcabdelhi8',
+'sbcabdelhi12',
+'sbcabdelhi13',
+'kbcabdelhi4',
+'kbcabdelhi7',
+'kbcabdelhi8',
+'kbcabdelhi9',
+'kbcabdelhi12',
+'kbcabdelhi13'
+)
